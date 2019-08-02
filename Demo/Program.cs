@@ -41,11 +41,8 @@ namespace OldSystem
             {
                 Console.WriteLine("Starting child process");
 
-                var errorPref = args.FirstOrDefault() ?? "Stop";
-                var cmd = $@"$ErrorActionPreference = '{errorPref}'; & .\PrintErrors.exe";
-
-                process.StartInfo.FileName = @"C:\windows\system32\WindowsPowershell\v1.0\PowerShell.exe";
-                process.StartInfo.Arguments = $@"-Command ""{cmd}""";
+                process.StartInfo.FileName = @"C:\windows\System32\WindowsPowershell\v1.0\PowerShell.exe";
+                process.StartInfo.Arguments = @"-Command ""$ErrorActionPreference = 'Stop'; & 'c:\windows\system32\curl.exe' -foo""";
                 process.StartInfo.WorkingDirectory = Path.GetDirectoryName(typeof(Program).Assembly.Location);
                 process.StartInfo.UseShellExecute = false;
                 process.StartInfo.CreateNoWindow = true;

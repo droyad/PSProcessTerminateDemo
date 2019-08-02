@@ -1,20 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintErrors", "PrintErrors\PrintErrors.csproj", "{8FDD43CF-5CBD-47F2-BF4E-4493950B1526}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldSystem", "OldSystem\OldSystem.csproj", "{0BE9F52E-5C4C-4D91-84C0-FE3624CA1FF2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewSystem", "NewSystem\NewSystem.csproj", "{7099BDED-BBD1-459F-BBE7-2D1DD10BC635}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{7099BDED-BBD1-459F-BBE7-2D1DD10BC635}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8FDD43CF-5CBD-47F2-BF4E-4493950B1526}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8FDD43CF-5CBD-47F2-BF4E-4493950B1526}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BE9F52E-5C4C-4D91-84C0-FE3624CA1FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BE9F52E-5C4C-4D91-84C0-FE3624CA1FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7099BDED-BBD1-459F-BBE7-2D1DD10BC635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7099BDED-BBD1-459F-BBE7-2D1DD10BC635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

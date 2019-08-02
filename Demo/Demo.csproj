@@ -4,10 +4,12 @@
         <TargetFramework>net472</TargetFramework>
         <OutDir>../bin</OutDir>
         <OutputType>Exe</OutputType>
+        <AssemblyName>Demo</AssemblyName>
+        <RootNamespace>Demo</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Compile Include="..\OldSystem\Program.cs" />
-    </ItemGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <Prefer32bit>false</Prefer32bit>
+    </PropertyGroup>
 
 </Project>
